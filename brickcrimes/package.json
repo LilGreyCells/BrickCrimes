@@ -9,6 +9,7 @@
     "dotenv": "^8.2.0",
     "google-maps-react": "^2.0.2",
     "react": "^16.12.0",
+    "react-autocomplete": "^1.8.1",
     "react-dom": "^16.12.0",
     "react-scripts": "3.3.1"
   },
