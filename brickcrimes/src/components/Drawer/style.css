@@ -1,0 +1,19 @@
+.drawer {
+  border-radius: 20px 20px 0px 0px;
+  height: 550px;
+  width: 100%;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: -300px;
+  transition: transform 0.3s ease;
+  border-top: 2px solid #0861d1;
+}
+.drawer.open {
+  transform: translateY(-250px);
+}
+.closeButton {
+  width: 15px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
