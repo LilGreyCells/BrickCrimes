@@ -10,8 +10,10 @@ export default class Home extends Component {
     return (
       <div>
         <Header />
-        <SearchBar />
+        
        <MapContainer />
+       <SearchBar/>
+       
       </div>
     )
 

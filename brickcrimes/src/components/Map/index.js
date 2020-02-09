@@ -25,6 +25,7 @@ export class MapContainer extends Component {
    
     render() {
       return (
+        <div >
         <Map google={this.props.google}
         initialCenter={{
             lat: 43.0845,
@@ -36,7 +37,7 @@ export class MapContainer extends Component {
           zoom={16}
             onClick={this.onMapClicked}>
           <Marker onClick={this.onMarkerClick}
-                 
+                 //todo:position here
                   name={'Current location'}
                   icon={{
                       url: "http://www.advancedorthogonal.com/wp-content/uploads/2017/03/map-pin.png",
@@ -52,6 +53,7 @@ export class MapContainer extends Component {
               </div>
           </InfoWindow>
         </Map>
+        </div>
       )
     }
   }
