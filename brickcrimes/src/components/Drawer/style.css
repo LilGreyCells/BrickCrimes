@@ -13,15 +13,11 @@
   transform: translateY(-250px);
 }
 .line {
-  position: absolute;
+  width: 3em;
   top: 10px;
 }
-.closeButton {
-  width: 15px;
-  position: absolute;
-  right: 20px;
-  top: 20px;
-}
 .pieChart {
+  margin: auto;
+  margin-top: 2em;
   width: 150px;
 }
